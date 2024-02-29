@@ -31,6 +31,6 @@ if (parent->left != NULL)
 
 	new_node->parent = parent;
 	parent->right = new_node;
-	return (new_node);
 
+return (new_node);
 }
