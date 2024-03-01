@@ -4,8 +4,7 @@
  * binary_tree_is_full - This is a tree in which every node has-
  * either zero children or two children.
  * @tree: pointer to the node that we want to calc the height from
- * Return: he height of the subtree rooted at its left child minus--
- * the height of the subtree rooted at its right child
+ * Return: 1 if it is full, 0 otherwise
 */
 
 int binary_tree_is_full(const binary_tree_t *tree)
