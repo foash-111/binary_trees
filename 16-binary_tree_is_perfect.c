@@ -2,7 +2,7 @@
 
 
 /**
- * binary_tree_height_helper - binary_tree_height
+ * tree_height_helper - binary_tree_height
  * @tree: pointer to the node that we want to calc the height from
  * Return: the height of the tree..("node")
 */
@@ -67,7 +67,6 @@ int binary_tree_is_perfect(const binary_tree_t *tree)
 
 if (tree_height_helper(tree->left) != tree_height_helper(tree->right))
 return (0);
-
 
 return (tree_height_helper(tree->left) * tree_height_helper(tree->right));
 }
