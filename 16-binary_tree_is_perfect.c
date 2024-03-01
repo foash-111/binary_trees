@@ -70,5 +70,5 @@ return (1);
 else
 return (0);
 
-return (tree_height_helper(tree->left) * tree_height_helper(tree->right));
+return (binary_tree_is_perfect(tree->left) * binary_tree_is_perfect(tree->right));
 }
